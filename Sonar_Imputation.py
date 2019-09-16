@@ -13,7 +13,7 @@ from scipy.interpolate import interp1d
 #NETWORK SETUP
 LR = 1e-4 # learning rate
 MOM = 0.9 # momentum
-NUM_ITER = 1000 # number iterations
+NUM_ITER = 7000 # number iterations
 WD = 1 # weight decay for l2-regularization
 Z_NUM = 32 # input seed
 NGF = 64 # number of filters per layer
